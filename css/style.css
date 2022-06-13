@@ -1,0 +1,192 @@
+html,body{
+    overflow-x: hidden;
+    font-family: madetommy-regular,Arial,sans-serif;
+    background: url(../img/back.jpg);
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+
+/*TYPOGRAPHY----------------------*/
+
+@font-face {
+    font-family:madetommy-regular;
+    src: url(../font/MADE_TOMMY_Regular.otf);
+}
+
+@font-face {
+    font-family:madetommy-extrabold;
+    src: url(../font/MADE_TOMMY_ExtraBold.otf);
+}
+
+
+@font-face {
+    font-family:akira;
+    src: url(../font/akira.otf);
+}
+
+@font-face {
+    font-family:montserrat;
+    src: url(../font/Montserrat.ttf);
+}
+
+.akira {
+    font-family: akira,Arial,sans-serif;
+}
+
+.tommyexbold {
+    font-family: madetommy-extrabold,Arial,sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    font-family: montserrat,Arial,sans-serif;
+    font-size: 7em;
+    font-weight: bold;
+    color: #00ba26 ;
+}
+
+h2 {
+    font-family: montserrat,Arial,sans-serif;
+    font-size: 2.6em;
+    font-weight: bold;
+    color: #00ba26 ;
+}
+
+h3 {
+    font-family: montserrat,Arial,sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: white ;
+}
+
+h4 {
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+}
+
+p {
+    font-size: 1.2em;
+    color: white;
+}
+
+.btn-custom {
+    color: white;
+    background-color: #00ba26;
+    font-size: 1.2em;
+}
+
+/*SECTIONS----------------------*/
+
+.alinha {
+	text-align: center;
+}
+
+#pg1 h2 {
+    color:#00ba26 ;
+}
+
+#pg2 { 
+    background-color: black;
+}
+
+#pg2 h1 {
+    color:#00ba26 ;
+    font-size: 4.2em;
+}
+
+#pg3 { 
+    background-color: #292929;
+}
+
+.obj h3 {
+    font-size: 1.3em;
+    color:#00ba26 ;
+    font-weight: bold;
+}
+
+#pg3 p {
+    font-size: 1em;
+}
+
+.obj {
+    border: 1px solid #00ba26;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#pg4 h1,h2,h3 {
+    color: white;
+}
+
+.countdown {
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(50px, 150px));
+    justify-content: center;
+    gap: 10px ;
+    padding: 10px;
+}
+
+.countdown li {
+    text-align: center;
+    list-style: none;
+    font-family: madetommy-extrabold, Helvetica, sans-serif;;
+    font-style: italic;
+    padding: 1rem;
+    color: #00ba26;
+    background:white ;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.countdown li span {
+    font-family:madetommy-extrabold, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 3rem;
+}
+
+#pg5 { 
+    background-color: black;
+}
+
+/* Media----------------------------*/
+/* Extra small devices (portrait phones, less than 576px - XS)*/
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up - SM)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 {
+        font-size: 6em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+}
+
+/* Medium devices (tablets, 768px and up - MD)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up - LG)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up -XL )*/
+@media (min-width: 1200px) {
+
+}
